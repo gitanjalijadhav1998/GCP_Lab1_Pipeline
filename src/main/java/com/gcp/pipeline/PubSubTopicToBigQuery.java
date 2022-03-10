@@ -88,7 +88,7 @@ public class PubSubTopicToBigQuery {
 
         // Create the pipeline
         Pipeline pipeline = Pipeline.create(options);
-        options.setJobName("PubSubTopicToBigQuery - " + System.currentTimeMillis());
+        options.setJobName("usecase1-5" + System.currentTimeMillis());
 
 
 
